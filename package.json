@@ -1,0 +1,26 @@
+{
+  "name": "cuit-validator",
+  "version": "0.0.1",
+  "description": "Validates Argentinian CUITs (Tax IDs)",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fariasf/cuit-validator.git"
+  },
+  "keywords": [
+    "CUIT"
+  ],
+  "author": "Facundo Farias <contacto@facundofarias.com.ar> (https://facundofarias.com.ar)",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/fariasf/cuit-validator/issues"
+  },
+  "homepage": "https://github.com/fariasf/cuit-validator#readme",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5"
+  }
+}
